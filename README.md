@@ -78,41 +78,4 @@ This project demonstrates how to build a production-oriented data pipeline for R
 | Development            | Google Colab                     |
 | Version Control        | Git / GitHub                     |
 
-# Project Structure
 
-rag-data-engineering/
-|
-├── README.md
-|
-├── notebooks/
-|   └── rag_pipeline.ipynb
-|
-├── src/
-|   ├── ingestion.py
-|   ├── validation.py
-|   ├── preprocessing.py
-|   ├── chunking.py
-|   ├── embeddings.py
-|   ├── vector_store.py
-|   └── retrieval.py
-|
-├── data/
-|   ├── raw/
-|   └── processed/
-|
-├── metadata/
-|   └── document_catalog.json
-|
-├── vector_store/
-|   ├── faiss.index
-|   └── chunks.pkl
-|
-├── logs/
-|   └── pipeline_report.json
-|
-├── tests/
-|   ├── test_ingestion.py
-|   ├── test_validation.py
-|   └── test_chunking.py
-|
-└── requirements.txt
